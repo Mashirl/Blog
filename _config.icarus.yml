@@ -229,7 +229,7 @@ widgets:
         # Author's current location
         location: Mainland, China
         # URL or path to the avatar image
-        avatar: 
+        avatar: https://cdn.jsdelivr.com/gh/Mashirl/Blog/source/images/avatar.jpg
         # Whether show the rounded avatar image
         avatar_rounded: false
         # Email address for the Gravatar
