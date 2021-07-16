@@ -262,8 +262,11 @@ widgets:
         type: links
         # Names and URLs of the sites
         links:
-            Hexo: 'https://hexo.io'
-            Bulma: 'https://bulma.io'
+            Elma's Blog: 'https://elmachaan.com/'
+            Restent: 'https://blog.restent.win'
+            Link: 'https://atlinker.cn'
+            林槐的杂货铺: 'https://stapxs.cn'
+            Subilan's Blog: 'https://subilan.win'
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
@@ -285,23 +288,23 @@ widgets:
         position: left
         type: tags
     # Google FeedBurner email subscription widget configurations
-    -
+    # -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: subscribe_email
+        # position: left
+        # type: subscribe_email
         # Hint text under the email input
-        description: 
+        # description: 
         # Feedburner ID
-        feedburner_id: ''
+        # feedburner_id: ''
     # Google AdSense unit configurations
-    -
+    # -
         # Where should the widget be placed, left sidebar or right sidebar
-        position: left
-        type: adsense
+        # position: left
+        # type: adsense
         # AdSense client ID
-        client_id: ''
+        # client_id: ''
         # AdSense AD unit ID
-        slot_id: ''
+        # slot_id: ''
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
