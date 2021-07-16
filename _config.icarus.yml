@@ -114,7 +114,7 @@ navbar:
     links:
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/Mashirl/Mashirl-Blog'
+            url: 'https://github.com/Mashirl/Blog'
 # Page footer configurations
 footer:
     # Links to be shown on the right of the footer section
@@ -127,7 +127,7 @@ footer:
             url: 'https://creativecommons.org/licenses/by/4.0/'
         Download on GitHub:
             icon: fab fa-github
-            url: 'https://github.com/ppoffice/hexo-theme-icarus'
+            url: 'https://github.com/Mashirl/Blog'
 # Article related configurations
 article:
     # Code highlight settings
@@ -191,7 +191,7 @@ donates:
         # Paypal business ID or email address
         business: ''
         # Currency code
-        currency_code: USD
+        currency_code: CNY
     # Wechat donate button configurations
     -
         type: wechat
