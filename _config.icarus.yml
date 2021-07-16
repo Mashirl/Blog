@@ -280,7 +280,7 @@ widgets:
         # Names and URLs of the sites
         links:
             Elma's Blog: 'https://elmachaan.com/'
-            Restent: 'https://blog.restent.win'
+            Restent Blog: 'https://blog.restent.win'
             Link: 'https://atlinker.cn'
             林槐的杂货铺: 'https://stapxs.cn'
             Subilan's Blog: 'https://subilan.win'
@@ -289,6 +289,11 @@ widgets:
             StarTrails' blog: 'https://startrails.top'
             FGHRSH's Blog: 'https://www.fghrsh.net'
             Lemon_miaow's Blog: 'https://lemonmiaow.xyz/'
+            FlyEmoji's Blog: 'https://flyemoji.xyz'
+            Fidel's Blog: 'https://fidel.js.org'
+            戴兜的小屋: 'https://daidr.me'
+            Pig Fang: 'https://blog.gplane.win'
+
     # Categories widget configurations
     -
         # Where should the widget be placed, left sidebar or right sidebar
