@@ -258,6 +258,9 @@ widgets:
             Github:
                 icon: fab fa-github
                 url: 'https://github.com/Mashirl'
+            E-Mail:
+                icon: fas fa-envelope
+                url: 'mailto:i@mashirl.com'
             RSS:
                 icon: fas fa-rss
                 url: /atom.xml
