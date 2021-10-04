@@ -166,7 +166,7 @@ comment:
     visitor: false                                
     emoji:                                        
       - 'https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo'
-    dark: auto                                    
+    dark: false                                    
     meta: ["nick", "mail", "link"]                
     required_meta: []                             
     login: enable                                 
