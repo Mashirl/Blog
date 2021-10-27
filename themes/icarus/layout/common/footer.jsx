@@ -89,6 +89,4 @@ module.exports = cacheComponent(Footer, 'common.footer', props => {
         showVisitorCounter: plugins && plugins.busuanzi === true,
         visitorCounterTitle: _p('plugin.visitor_count', '<span id="busuanzi_value_site_uv">0</span>')
     };
-});
-
-<a href="https://icp.gov.moe/?keyword=20213888" target="_blank">萌ICP备20213888号</a>
+})
