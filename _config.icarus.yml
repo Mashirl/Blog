@@ -245,7 +245,7 @@ widgets:
         # Author title
         author_title: 
         # Author's current location
-        location: Mainland, China
+        location: Mainland China
         # URL or path to the avatar image
         avatar: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/avatar.jpg
         # Whether show the rounded avatar image
