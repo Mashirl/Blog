@@ -6,7 +6,7 @@ author: Mashirl
 language: zh-CN
 timezone: ''
 url: https://mashirl.com
-permalink: ':yyyy/:mm/:dd/:title/'
+permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
