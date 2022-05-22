@@ -1,0 +1,218 @@
+version: 5.0.0
+variant: default
+logo:
+    text: Mashirl's Blog
+head:
+    favicon: https://mashirl.com/images/avatar.jpg
+    manifest:
+        name: Mashirl's Blog
+        short_name: Mashirl's Blog
+        start_url: https://mashirl.com
+        theme_color: 
+        background_color: 
+        display: standalone
+        icons:
+            -
+                src: ''
+                sizes: ''
+                type: 
+    open_graph:
+        title: 
+        type: blog
+        url: https://mashirl.com/images/avatar.jpg
+        image: 
+        site_name: 
+        author: 
+        description: 
+        twitter_card: 
+        twitter_id: 
+        twitter_site: 
+        google_plus: 
+        fb_admins: 
+        fb_app_id: 
+    structured_data:
+        title: Mashirl's Blog
+        description: 
+        url: https://www.mashirl.com
+        author: Mashirl
+        publisher: 
+        publisher_logo: 
+        image: 
+    meta:
+        - ''
+    rss: /atom.xml
+navbar:
+    menu:
+        主页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+    links:
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/Mashirl/Blog
+footer:
+    links:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution 4.0 International:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Download on GitHub:
+            icon: fab fa-github
+            url: https://github.com/Mashirl/Blog
+article:
+    highlight:
+        theme: atom-one-light
+        clipboard: true
+        fold: unfolded
+    readtime: true
+    licenses:
+        Creative Commons:
+            icon: fab fa-creative-commons
+            url: https://creativecommons.org/
+        Attribution:
+            icon: fab fa-creative-commons-by
+            url: https://creativecommons.org/licenses/by/4.0/
+        Noncommercial:
+            icon: fab fa-creative-commons-nc
+            url: https://creativecommons.org/licenses/by-nc/4.0/
+search:
+    type: insight
+comment:
+    type: waline
+    server_url: https://waline.mashirl.com
+    lang: zh-CN
+    visitor: false
+    emoji:
+        - https://cdn.jsdelivr.net/gh/walinejs/emojis/weibo
+    dark: false
+    meta:
+        - nick
+        - mail
+        - link
+    required_meta: []
+    login: enable
+    avatar: mp
+    word_limit: 0
+    page_size: 10
+    avatar_cdn: ''
+    avatar_force: false
+    highlight: true
+    math_tag_support: false
+    copyright: true
+    locale:
+        placeholder: Comment here...
+sidebar:
+    left:
+        sticky: false
+    right:
+        sticky: false
+widgets:
+    -
+        position: left
+        type: profile
+        author: Mashirl
+        author_title: 
+        location: Mainland China
+        avatar: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/avatar.jpg
+        avatar_rounded: false
+        gravatar: 
+        follow_link: https://mashirl.com/atom.xml
+        social_links:
+            Github:
+                icon: fab fa-github
+                url: https://github.com/Mashirl
+            E-Mail:
+                icon: fas fa-envelope
+                url: mailto:i@mashirl.com
+            RSS:
+                icon: fas fa-rss
+                url: /atom.xml
+    -
+        position: left
+        type: toc
+        index: true
+        collapsed: true
+        depth: 3
+    -
+        position: left
+        type: links
+        links:
+            Elma's Blog: https://elmachaan.com/
+            Restent Blog: https://blog.restent.win
+            Link: https://atlinker.cn
+            林槐的杂货铺: https://stapxs.cn
+            Subilan's Blog: https://subilan.win
+            辣椒の酱: https://removeif.github.io
+            HackerRouter's Blog: https://hackerrouter.xyz/
+            StarTrails' blog: https://startrails.top
+            FGHRSH's Blog: https://www.fghrsh.net
+            Lemon_miaow's Blog: https://lemonmiaow.xyz/
+            FlyEmoji's Blog: https://flyemoji.xyz
+            Fidel's Blog: https://fidel.js.org
+            戴兜的小屋: https://daidr.me
+            Pig Fang: https://blog.gplane.win
+            Nofated's Blog: https://blog.nofated.win
+            LLLgoyour's Blog: https://lllgoyour.tk/
+            Paji's Blog: https://blog.mntpaji.com
+            Cubik的小站: https://www.cubik65536.top/
+    -
+        position: left
+        type: categories
+    -
+        position: right
+        type: recent_posts
+    -
+        position: right
+        type: archives
+    -
+        position: right
+        type: tags
+plugins:
+    animejs: true
+    back_to_top: true
+    baidu_analytics:
+        tracking_id: 
+    bing_webmaster:
+        tracking_id: 
+    busuanzi: false
+    cnzz:
+        id: 
+        web_id: 
+    cookie_consent:
+        type: info
+        theme: edgeless
+        static: false
+        position: bottom-left
+        policyLink: https://www.cookiesandyou.com/
+    gallery: true
+    google_analytics:
+        tracking_id: 
+    hotjar:
+        site_id: 
+    katex: false
+    mathjax: false
+    outdated_browser: false
+    progressbar: true
+    statcounter:
+        project: 
+        security: 
+    twitter_conversion_tracking:
+        pixel_id: 
+providers:
+    cdn: jsdelivr
+    fontcdn: google
+
+        # Twitter Pixel ID
+        pixel_id: 
+# CDN provider settings
+# https://ppoffice.github.io/hexo-theme-icarus/Configuration/Theme/speed-up-your-site-with-custom-cdn/
+providers:
+    # Name or URL template of the JavaScript and/or stylesheet CDN provider
+    cdn: jsdelivr
+    # Name or URL template of the webfont CDN provider
+    fontcdn: google
+    # Name or URL of the fontawesome icon font CDN provider
+    iconcdn: fontawesome
