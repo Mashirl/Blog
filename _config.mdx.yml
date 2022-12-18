@@ -1,0 +1,238 @@
+# Theme settings
+# 主题设置
+# use CDN to boost your site(CDN Providers:true(use jsdelivr)/cdnjs/jsdelivr/staticfile/bootcdn/bytedance/unpkg/false(won't use CDN))
+# 使用CDN加速前端载入(CDN提供商:true(使用默认的jsdelivr)/cdnjs/jsdelivr/staticfile/bootcdn/bytedance/unpkg/false(不使用CDN))
+# Note: For Waline , Valine and Twikoo comment systems, using bytedance CDN will automatically fallback to JSDelivr (the library version of this CDN is out of date and not easy to use)
+# 注意：对于Waline、Valine和Twikoo评论客户端，使用bytedance CDN将自动转为JSDelivr(此CDN的库版本过旧且不好接入)
+cdn_provider: 'cdnjs'
+
+# 使用特定的MDUI库版本(默认1.0.2，您可以手动修改为其他版本)
+# Use a specific MIUI version(default:1.0.2, you can modify it to other versions manually)
+# 注意：不使用CDN时请将这项留空或者填写1.0.2，否则会出现错误
+# Note: Please leave this blank or fill in 1.0.2 when not using CDN, otherwise an error will occur
+mdui_version:  
+
+# Theme colors
+# Check out all the colors here: https://www.mdui.org/docs/color
+# 主题颜色
+# 颜色列表请看: https://www.mdui.org/docs/color
+color:
+  primary: indigo
+  accent: pink
+
+# GDPR Cookie alert(HTML Tag supported)
+# This will show a snackbar at the right bottom of the page
+# GDPR Cookie提示(支持HTML标签)
+# 效果是页面右下角显示一个Snackbar
+gdpr_cookie_alert:
+  enable: true
+  # 如需享受MDx的i18n功能，请将下面两个选项留空
+  # If you want to use MDx's i18n feature, please leave them blank
+  # 提示文字
+  text: 此网站使用Cookie来改善您的体验。
+  # 按钮文字
+  # Button text
+  ack_btn: Got it
+
+# Check user's online status
+# If you use Service-Worker, etc. in offline mode, you can still read articles, but cannot comment, etc, then this option will be very useful
+# MDx will check network connection each 5 secs, and show an alert when network is disconnected.
+# 检查用户在线状态
+# 如果您用了Service-Worker等技术在无网络时也能阅读文章，但是无法进行评论等操作，那么此选项将非常有用
+# 启用后MDx会每隔5秒检测一次网络连接，并在丢失网络连接时显示一条提示。
+online_check:
+  enable: true
+  # 使用 navigotor.onLine 检测连接状态而不是发送请求( 默认: true )
+  # Use navigator.onLine to check connection instead of sending requests (default: true)
+  inaccurate_detection: true
+  # 如需享受MDx的i18n功能，请将下面两个选项留空
+  # If you want to use MDx's i18n feature, please leave them blank
+  # Offline alert text(optional)
+  # 离线时提示的文字(可选)
+  offlineText: 您似乎处于离线状态，某些功能无法使用，请检查您的网络连接。
+  # Online alert text(optional)
+  # 网络连接恢复时提示的文字(可选)
+  onlineText: 网络连接已恢复！
+  ack_btn: 了解
+
+# Link to header picture
+header_picture_link: # 头图链接
+# Link to favicon.ico
+favicon: # 网站图标链接
+# Auto-generated excerpt length, <!-- more --> is supported
+excerpt_length: 250 # 自动生成的摘要长度，<!-- more -->也支持
+
+# Search settings(depends on "hexo-generator-search")
+# Need to be configured in JSON format, the path is '/search.json'
+# 搜索设置(依赖 "hexo-generator-search")
+# 需配置为JSON格式，路径为'/search.json'
+search:
+  # Enable search
+  # 是否启用搜索功能
+  enable: true
+  # Search database path(default: './search.json')
+  # 搜索数据库路径(默认为'/search.json')
+  path: /search.json
+  # 如需享受MDx的i18n功能，请将下面留空
+  # If you want to use MDx's i18n feature, please leave them blank
+  # Search box placeholder text(optional)
+  # 搜索框提示文字(可选)
+  placeholder: 搜点什么...
+  # No result text($txt$ will be replaced with the search content)(optional)
+  # 无结果时显示的文字($txt$会被替换为搜索的内容)(可选)
+  no_result: 没有找到与“$txt$”相关的文章
+  # Search database load error text(optional)
+  # 搜索数据库加载错误时显示的文字(可选)
+  error: MDx的搜索数据库似乎未正确加载，请尝试刷新页面
+
+# About field at the drawer menu
+# 抽屉菜单的关于栏
+drawer_about:
+  enable: true
+  # Link to avatar image
+  avatar: # 头像链接
+  # Name
+  name: # 名字
+  # Slogan
+  slogan: # 标语（个性签名）
+  # Link to background image
+  background: # 背景图片链接
+  # Whether the background is dark-colored or not
+  is_dark: true # 背景图是不是深色的
+
+# Drawer menu list (Nested lists are not supported)
+# Format: Link name: Link || Icon
+# Check out all the icons at https://www.mdui.org/docs/material_icon
+# 抽屉菜单列表（暂不支持嵌套列表）
+# 格式: 名称: 链接 || 图标
+# 图标到 https://www.mdui.org/docs/material_icon 找
+drawer:
+  主页: / || &#xe88a;
+  MDx: https://github.com/Yuameshi/hexo-theme-mdx || &#xe243;
+  GitHub: https://github.com/Yuameshi || &#xe149;
+  关于: /about || &#xe88e;
+
+# Text which will inserted at the end of the article.
+# '%title%' refers to title link of current post.
+# '%link%' refers to permalink link of current post
+# 文章末尾插入的文段，%title%表示文章标题，%link%表示文章链接
+passage_end_tag:
+  enabled: true
+  text: 'END'
+
+# Comment system settings
+# 评论系统
+comment:
+  use: waline
+  # gitalk configuration refers to https://github.com/gitalk/gitalk/
+  # Gitalk配置文档：https://github.com/gitalk/gitalk/
+  gitalk:
+    clientID: 
+    clientSecret: 
+    repo: 
+    owner: 
+    admin: ['']
+    distractionFreeMode: true
+  # utterance configuration refers to https://utteranc.es/
+  # utteranc配置文档：https://utteranc.es/
+  utterances:
+    repo: 
+    issue_term: 
+    lable: 
+    theme: 
+  # Valine配置参考 https://valine.js.org/configuration.html
+  # Valine configuration refers to https://valine.js.org/configuration.html
+  valine:
+    app_id:
+    app_key:
+    placeholder:
+    avatar:
+    page_size:
+    lang:
+    server_urls:
+    emoji_cdn:
+    # emoji_maps请填入JSON字符串（可以使用JSON.stringify来生成，要能在现代浏览器内正常用JSON.parse解析)
+    # Please fill in standard JSON string in emoji_maps (You can use 'JSON.stringify' to generate it, and the string must can be parsed by JSON.parse in modern browsers)
+    emoji_maps:
+    # 请使用逗号分割meta和required_fields中的字符串
+    # Please use commas to separate keys in 'meta' and 'required_fields'
+    meta:
+    required_fields:
+    visitor:
+    highlight:
+    avatar_force:
+    record_ip:
+    enable_qq:
+  # Waline配置参考以下链接
+  # Waline configuration refers to links below
+  # https://waline.js.org/reference/client.html#init
+  # https://waline.js.org/reference/component.html
+  waline: 
+    server_url: https://waline.mashirl.com
+    lang: 
+    dark: 
+    # 请使用逗号分割meta、required_meta和emoji中的字符串
+    # Please use commas to separate keys in 'meta' , 'required_meta' and 'emoji'
+    meta: ["nick", "mail", "link"] 
+    required_meta: []
+    emoji:
+    login: enable
+    word_limit: 0
+    page_size: 10
+    image_uploader:
+    highlighter: true
+    text_renderer:
+    copyright: true
+  # Twikoo 配置参考以下链接
+  # Twikoo configuration refers to links below
+  # https://twikoo.js.org/quick-start.html
+  # https://twikoo.js.org/quick-start.html#%E9%80%9A%E8%BF%87-cdn-%E5%BC%95%E5%85%A5
+  twikoo:
+    envId:
+    region:
+    lang:
+
+# 网页分析
+analytics:
+  # Google Analytics configuration refers to https://analytics.google.com/
+  # Google Analytics官网：https://analytics.google.com/
+  google:
+    enabled: false
+    tracking_id: 
+  # Cloudflare Web Analytics configuration refers to https://developers.cloudflare.com/analytics/web-analytics
+  # Cloudflare Web Analytics文档：https://developers.cloudflare.com/analytics/web-analytics
+  cloudflare:
+    enabled: false
+    token: 
+advertisement:
+  google:
+    # Gooele AdSense refers to https://www.google.com/adsense
+    # Google AdSense 参见此网站 https://www.google.com/adsense
+    client_ca_pub:
+
+footer:
+  # Three choices: modern, simple, traditional
+  style: 'modern' # 三种选择：现代(modern)、简洁(simple)、传统(traditional)
+  # 在传统和简洁模式下不会显示全部，您仅能从以下几个选一个显示：版权(copyrights)、同时显示两个备案号(icp)、仅显示工信部备案(miit_icp)、仅显示萌备(moe_icp)、展示网站由Hexo驱动(powered_by)
+  # 注意：选择'powered_by'会遵循您对'hexo'和'theme'的设置
+  # In traditional and simple mode, you can only choose one of the following to display: copyrights, icp, miit_icp, moe_icp, powered_by
+  # Note: the choice 'powered_by' will follow your settings of 'hexo' and 'theme'
+  show: 'powered_by'
+  # When the site was launched
+  since: # 站点开始运营时间
+  # Show '© %SITE_NAME%' in footer
+  copyrights: true # 会在页脚显示 '© %SITE_NAME%'
+  # Show "Powered by Hexo" in the footer
+  hexo: true # 会在页脚显示 '由Hexo强力驱动'
+  # Show "Themed MDx" in footer
+  theme: true # 会在页脚显示 '由 MDx 主题装饰'（球球了开开吧）
+  # Text to show on the footer
+  text: aaasf # 会在页脚显示 '自定义的文字'
+  # Social media links
+  contact: # 会在页脚显示链接
+    MDx: https://github.com/Yuameshi/hexo-theme-mdx
+    GitHub: https://github.com/Yuameshi
+  # Link to MIIT ICP
+  miit_icp: # 会在页脚显示备案号
+  # Link to MOE ICP
+  moe_icp: # 会在页脚显示萌备
