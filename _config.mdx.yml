@@ -56,7 +56,7 @@ online_check:
   ack_btn: 了解
 
 # Link to header picture
-header_picture_link: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/78361271_p0.png # 头图链接
+header_picture_link: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/78357220_p0.jpg # 头图链接
 # Link to favicon.ico
 favicon: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/avatar.jpg # 网站图标链接
 # Auto-generated excerpt length, <!-- more --> is supported
