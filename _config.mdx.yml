@@ -170,7 +170,7 @@ comment:
   waline: 
     server_url: https://waline.mashirl.com
     lang: 
-    dark: 
+    dark: auto
     # 请使用逗号分割meta、required_meta和emoji中的字符串
     # Please use commas to separate keys in 'meta' , 'required_meta' and 'emoji'
     meta: ["nick", "mail", "link"] 
