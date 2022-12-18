@@ -1,4 +1,9 @@
 ---
-title: links
+title: 友链
 date: 2022-12-18 15:20:08
+layout: friends
 ---
+
+更换新主题，重新整理中。
+
+以下链接不按先后顺序排序
