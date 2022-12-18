@@ -108,9 +108,10 @@ drawer_about:
 # 图标到 https://www.mdui.org/docs/material_icon 找
 drawer:
   主页: / || &#xe88a;
-  MDx: https://github.com/Yuameshi/hexo-theme-mdx || &#xe243;
-  GitHub: https://github.com/Yuameshi || &#xe149;
+  # MDx: https://github.com/Yuameshi/hexo-theme-mdx || &#xe243;
+  友链: /links || &#xe7fb;
   关于: /about || &#xe88e;
+  GitHub: https://github.com/Mashirl || &#xe149;
 
 # Text which will inserted at the end of the article.
 # '%title%' refers to title link of current post.
@@ -228,7 +229,7 @@ footer:
   # Show "Themed MDx" in footer
   theme: true # 会在页脚显示 '由 MDx 主题装饰'（球球了开开吧）
   # Text to show on the footer
-  text: aaasf # 会在页脚显示 '自定义的文字'
+  text: # 会在页脚显示 '自定义的文字'
   # Social media links
   contact: # 会在页脚显示链接
     GitHub: https://github.com/Mashirl
