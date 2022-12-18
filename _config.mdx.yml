@@ -96,7 +96,7 @@ drawer_about:
   # Slogan
   slogan: # 标语（个性签名）
   # Link to background image
-  background: # 背景图片链接
+  background: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/78361271_p0.png # 背景图片链接
   # Whether the background is dark-colored or not
   is_dark: true # 背景图是不是深色的
 
