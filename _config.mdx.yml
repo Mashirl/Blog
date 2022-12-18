@@ -58,7 +58,7 @@ online_check:
 # Link to header picture
 header_picture_link: # 头图链接
 # Link to favicon.ico
-favicon: # 网站图标链接
+favicon: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/avatar.jpg # 网站图标链接
 # Auto-generated excerpt length, <!-- more --> is supported
 excerpt_length: 250 # 自动生成的摘要长度，<!-- more -->也支持
 
@@ -90,9 +90,9 @@ search:
 drawer_about:
   enable: true
   # Link to avatar image
-  avatar: # 头像链接
+  avatar: https://cdn.jsdelivr.net/gh/Mashirl/Blog/source/images/avatar.jpg # 头像链接
   # Name
-  name: # 名字
+  name: Mashirl # 名字
   # Slogan
   slogan: # 标语（个性签名）
   # Link to background image
@@ -176,6 +176,7 @@ comment:
     meta: ["nick", "mail", "link"] 
     required_meta: []
     emoji:
+    avatar: mp
     login: enable
     word_limit: 0
     page_size: 10
