@@ -231,9 +231,8 @@ footer:
   text: aaasf # 会在页脚显示 '自定义的文字'
   # Social media links
   contact: # 会在页脚显示链接
-    MDx: https://github.com/Yuameshi/hexo-theme-mdx
-    GitHub: https://github.com/Yuameshi
+    GitHub: https://github.com/Mashirl
   # Link to MIIT ICP
   miit_icp: # 会在页脚显示备案号
   # Link to MOE ICP
-  moe_icp: # 会在页脚显示萌备
+  moe_icp: 20213888 # 会在页脚显示萌备
