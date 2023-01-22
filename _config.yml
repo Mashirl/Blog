@@ -62,7 +62,7 @@ ignore: null
 theme: mdx
 deploy:
   type: git
-  repo: https://github.com/<username>/<project>
+  repo: git@github.com:Mashirl/Blog.git
   branch: gh-pages
   name: Mashirl
   email: i@mashirl.com
