@@ -61,4 +61,8 @@ exclude: null
 ignore: null
 theme: mdx
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/<username>/<project>
+  branch: gh-pages
+  name: Mashirl
+  email: i@mashirl.com
