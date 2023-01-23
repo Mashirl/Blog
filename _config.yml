@@ -60,6 +60,10 @@ include: null
 exclude: null
 ignore: null
 theme: mdx
+search:
+  path: search.json
+  field: post
+  content: true
 deploy:
   type: git
   repo: git@github.com:Mashirl/Blog.git
