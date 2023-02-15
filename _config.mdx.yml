@@ -111,7 +111,9 @@ drawer:
   # MDx: https://github.com/Yuameshi/hexo-theme-mdx || &#xe243;
   友链: /friends || &#xe7fb;
   # 关于: /about || &#xe88e;
-  GitHub: https://github.com/Mashirl || &#xe149;
+  归档: /archives || &#xe149;
+  GitHub: https://github.com/Mashirl || &#xe86f;
+
 
 # Text which will inserted at the end of the article.
 # '%title%' refers to title link of current post.
