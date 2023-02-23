@@ -15,3 +15,24 @@ date: 2022-12-18
 [FLYEMOJ1](https://flyemoji.xyz)
 
 [ちゃおにま](https://lemonmiaow.xyz)
+
+[Nofated's Blog](https://blog.nofated.win)
+
+[Cubik的小站](https://cubik65536.top)
+
+[Subilan's Blog](https://subilan.win)
+
+[Fidel's Blog](https://fidel.js.org)
+
+[Paji's Blog](https://blog.mntpaji.com/)
+
+[StarTrails' blog](https://startrails.top)
+
+[辣椒の酱](https://removeif.github.io)
+
+[FGHRSH](https://www.fghrsh.net)
+
+[戴兜的小屋](https://daidr.me)
+
+[LLLgoyour's Blog](https://lllgoyour.tk/)
+
