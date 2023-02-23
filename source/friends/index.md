@@ -22,6 +22,8 @@ date: 2022-12-18
 
 - [Subilan's Blog](https://subilan.win)
 
+- [Pig Fang](https://blog.gplane.win)
+
 - [Fidel's Blog](https://fidel.js.org)
 
 - [Paji's Blog](https://blog.mntpaji.com/)

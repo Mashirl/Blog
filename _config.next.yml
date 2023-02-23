@@ -100,7 +100,7 @@ open_graph:
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  #about: /about/ || fa fa-user
+  about: /about/ || fa fa-user
   friends: /friends/ || fa fa-user-group
   archives: /archives/ || fa fa-archive
   tags: /tags/ || fa fa-tags
