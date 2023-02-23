@@ -1,9 +1,17 @@
 ---
 title: 友链
-date: 2022-12-18 15:20:08
-layout: friends
+date: 2022-12-18
+# layout: friends
 ---
 
 更换新主题，重新整理中。
 
 以下链接不按先后顺序排序
+
+[Restent's Blog](https://blog.restent.win)
+
+[林槐的杂货铺](https://stapxs.cn)
+
+[FLYEMOJ1](https://flyemoji.xyz)
+
+[ちゃおにま](https://lemonmiaow.xyz)

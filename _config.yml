@@ -1,11 +1,11 @@
 title: Mashirl's Blog
 subtitle: ''
 description: ''
-keywords: null
+keywords: Mashirl,Blog
 author: Mashirl
 language: zh-CN
 timezone: ''
-url: http://example.com
+url: https://mashirl.com
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -59,7 +59,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: mdx
+theme: next
 search:
   path: search.json
   field: post
