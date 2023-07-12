@@ -1,5 +1,5 @@
 ---
-title: [转载] 关于 Hyper-V 虚拟机网络变慢的问题
+title: 【转载】关于 Hyper-V 虚拟机网络变慢的问题
 date: 2023-07-12 14:49:55
 tags: [Linux] [Hyper-V]
 ---
