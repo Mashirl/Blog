@@ -1,10 +1,10 @@
 ---
-title: [转载] 关于 Hyper-V 虚拟机网络变慢的问题
+title: 【转载】关于 Hyper-V 虚拟机网络变慢的问题
 date: 2023-07-12 14:49:55
-tags: [Linux] [Hyper-V]
+tags: 
+- [Hyper-V]
 ---
-
-> 我在Hyper-V里安装了Ubuntu并设置了一个外部网络，结果整个机子网络都变得特别慢，然后搜索到了这篇文章，故转载于此。
+> 我在Hyper-V里安装了Ubuntu并设置了一个外部网络，结果整个机子网络都变得特别慢，然后搜索到了这篇文章，解决了问题，故转载于此。
 
 > 原文地址：https://ainto.org/Article/74.html
 >
