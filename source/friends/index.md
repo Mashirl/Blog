@@ -38,3 +38,4 @@ date: 2022-12-18
 
 - [LLLgoyour's Blog](https://lllgoyour.tk/)
 
+- [咕萌小窝](https://www.gmoe.cc)
