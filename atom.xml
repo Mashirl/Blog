@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Mashirl&#39;s Blog</title>
+  
+  
+  <link href="https://mashirl.com/atom.xml" rel="self"/>
+  
+  <link href="https://mashirl.com/"/>
+  <updated>2024-04-30T13:33:16.377Z</updated>
+  <id>https://mashirl.com/</id>
+  
+  <author>
+    <name>Mashirl</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>年末的自言自语</title>
+    <link href="https://mashirl.com/2023/12/29/lost-sound-in-2023/"/>
+    <id>https://mashirl.com/2023/12/29/lost-sound-in-2023/</id>
+    <published>2023-12-29T11:50:31.000Z</published>
+    <updated>2024-04-30T13:33:16.377Z</updated>
+    
+    <content type="html"><![CDATA[<p>城市里尽是明亮的灯光，若是从整座城市来看这幅景象，定是一幅歌舞升平、一切向好的景象。此时此刻我的主观感受却是虚无的、难以描述的。  </p><p>人山人海的大街小巷、光鲜亮丽的购物中心还有谈笑风生的同学之间，似乎也都没有我的容身之所。  </p><p>我在做些什么？应当做些什么？似乎也都是天方夜谭了。  </p><p>我独自一人在城市里行走着，若有所思地打开了手机，读起了各位的年终总结。在我的印象里，我似乎从未写过一篇正经的年终总结。我不禁羞愧起来，回想这一年自己都做了些什么，思来想去也无非是考试、成绩等虚无缥缈的事情罢了。累死累活，竟也没什么可写的。  </p><p>想到这里，便不再想了，只有继续漫无目的地向前走着。经过购物中心，穿过人山人海，回到我在这偌大城市唯一的家。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;城市里尽是明亮的灯光，若是从整座城市来看这幅景象，定是一幅歌舞升平、一切向好的景象。此时此刻我的主观感受却是虚无的、难以描述的。  &lt;/p&gt;
+&lt;p&gt;人山人海的大街小巷、光鲜亮丽的购物中心还有谈笑风生的同学之间，似乎也都没有我的容身之所。  &lt;/p&gt;
+&lt;p&gt;我在做些什么？应当</summary>
+      
+    
+    
+    
+    
+    <category term="随笔" scheme="https://mashirl.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>失去的回忆</title>
+    <link href="https://mashirl.com/2023/09/20/unknown-1/"/>
+    <id>https://mashirl.com/2023/09/20/unknown-1/</id>
+    <published>2023-09-20T01:55:00.000Z</published>
+    <updated>2024-04-30T13:33:16.377Z</updated>
+    
+    <content type="html"><![CDATA[<p>刚刚在 web.archive.org 上翻阅了曾经的某个人的个人网站，不过并没有找到什么有用的东西。</p><p>互联网的记忆也许并非我们想象的那样强大。一个完整的、完善的网站变得支离破碎只需要几天晚上，而几年后的今天，如果没有当时的备份也很难再找到什么有用的东西了。</p><p>证明一个人、一个网站曾经存在过的证明，还有什么呢？</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;刚刚在 web.archive.org 上翻阅了曾经的某个人的个人网站，不过并没有找到什么有用的东西。&lt;/p&gt;
+&lt;p&gt;互联网的记忆也许并非我们想象的那样强大。一个完整的、完善的网站变得支离破碎只需要几天晚上，而几年后的今天，如果没有当时的备份也很难再找到什么有用的东西了。&lt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>【转载】关于 Hyper-V 虚拟机网络变慢的问题</title>
+    <link href="https://mashirl.com/2023/07/12/hyper-v/"/>
+    <id>https://mashirl.com/2023/07/12/hyper-v/</id>
+    <published>2023-07-12T06:49:55.000Z</published>
+    <updated>2024-04-30T13:33:16.373Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我在Hyper-V里安装了Ubuntu并设置了一个外部网络，结果整个机子网络都变得特别慢，然后搜索到了这篇文章，解决了问题，故转载于此。</p></blockquote><blockquote><p>原文地址：<a href="https://ainto.org/Article/74.html">https://ainto.org/Article/74.html</a></p><p>原作者：Ainto</p></blockquote><p>在 Hyper-V 里安装了 CentOS 并设置了一个外部网络；虚拟机内下载包很慢，刚开始以为是源的问题，换源后还是一样，这时才发现宿主机的网络也变得很慢，排除网络自身原因后发现是这个虚拟机的“外部网络”网卡导致的，删除它网络便正常了。</p><p>不过删除了虚拟机也没有网络了，这不是解决方法。</p><p>宿主机连的是 WIFI 网络，尝试了在 <code>网络和Internet</code> 中 <code>更改适配器选项</code> 找到 <code>WLAN(没改名的话是这个)</code> 右键打开 <code>属性</code> 在网卡名称下找到 <code>配置</code> 选择 <code>高级</code> 选项卡，找到 <code>首选频带</code> 改为 <code>首选 5GHz 频带</code> 后保存。</p><p>这时候再测试网络便正常了，不知道什么原理，也不知道为什么会出现这个问题…</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;我在Hyper-V里安装了Ubuntu并设置了一个外部网络，结果整个机子网络都变得特别慢，然后搜索到了这篇文章，解决了问题，故转载于此。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;原文地址：&lt;a href=&quot;https:/</summary>
+      
+    
+    
+    
+    
+    <category term="Hyper-V" scheme="https://mashirl.com/tags/Hyper-V/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://mashirl.com/2021/07/16/hello-world/"/>
+    <id>https://mashirl.com/2021/07/16/hello-world/</id>
+    <published>2021-07-16T10:37:26.000Z</published>
+    <updated>2021-08-29T16:00:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>把博客重新开起来了，虽然还没想好写什么（</p><p>之前dalao们的友链我尽可能找回，没删除我的友链的一般我都会直接加回来，已经删除掉的之后有可能会重新申请。</p><p>Anyway, GL&amp;HF.</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;把博客重新开起来了，虽然还没想好写什么（&lt;/p&gt;
+&lt;p&gt;之前dalao们的友链我尽可能找回，没删除我的友链的一般我都会直接加回来，已经删除掉的之后有可能会重新申请。&lt;/p&gt;
+&lt;p&gt;Anyway, GL&amp;amp;HF.&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
