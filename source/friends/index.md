@@ -16,6 +16,8 @@ date: 2022-12-18
 
 - [ちゃおにま](https://lemonmiaow.xyz)
 
+- [ENDsoft's Blog](https://blog.r-ay.cn)
+
 - [Nofated's Blog](https://blog.nofated.win)
 
 - [Cubik的小站](https://cubik65536.top)
