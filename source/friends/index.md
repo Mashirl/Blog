@@ -18,7 +18,7 @@ date: 2022-12-18
 
 - [林槐的杂货铺](https://stapxs.cn)
 
-- [FLYEMOJ1](https://flyemoji.xyz)
+- [FLYEMOJ1](https://flyemoji.xyz) - ~~可爱~~
 
 - [ちゃおにま](https://lemonmiaow.xyz)
 
