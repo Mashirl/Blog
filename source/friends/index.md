@@ -22,6 +22,8 @@ date: 2022-12-18
 
 - [Cubik的小站](https://cubik65536.top)
 
+- [晓雨杂记](https://lihaoyu.cn)
+
 - [Subilan's Blog](https://subilan.win)
 
 - [Pig Fang](https://blog.gplane.win)
