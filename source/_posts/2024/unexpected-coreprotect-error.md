@@ -9,7 +9,7 @@ tags:
 
 我最近在尝试Minecraft 1.21服务端的兼容性，[CoreProtect](https://coreprotect.net)一直是一个很重要的插件，可以帮助玩家和管理员查询方块的更改记录，以便监管和阻止恶意破坏行为。
 
-CoreProtect的最新构建是需要付费的，但它的源代码在[它的 GitHub 仓库](htt//github.com/PlayPro/CoreProtect/)上是开放的，所以我们理所应当地想到了手动构建。然而，在手动构建之后，却出现了意料之外的报错。
+CoreProtect的最新构建是需要付费的，但它的源代码在[它的 GitHub 仓库](http://github.com/PlayPro/CoreProtect/)上开源，所以我们理所应当地想到了手动构建。然而，在手动构建之后，却出现了意料之外的报错。
 
 <!--more-->
 
@@ -30,7 +30,7 @@ CoreProtect的最新构建是需要付费的，但它的源代码在[它的 GitH
 
 我们回到CoreProtect的源码中继续寻找，找到了下面这部分代码
 
-```java net.coreprotect.config.ConfigHandler.
+```java net.coreprotect.config.ConfigHandler (1-55行)
 package net.coreprotect.config;
 
 import java.io.File;
@@ -90,7 +90,7 @@ public class ConfigHandler extends Queue {
 
 这部分代码中的这一部分
 
-```java
+```java 
 public class ConfigHandler extends Queue {
     public static int SERVER_VERSION = 0;
     public static final int EDITION_VERSION = 2;
@@ -105,3 +105,7 @@ public class ConfigHandler extends Queue {
 ```
 
 设置完毕之后，插件便可以正常运行了。
+
+## 鸣谢
+
+感谢 [Lemon_miaow](https://github.com/Lemon-miaow) 和我一起挑灯夜行研究~~“头痛砍头”的治疗方法~~。
